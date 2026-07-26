@@ -25,7 +25,6 @@ public class TestLoginPage  {
     loginPage.NavigateToBrowser();
     loginPage.clickSignIn();
     registrationPage.insertRegisterWithValidCredentials();
-    registrationPage.insertRegisterWithValidCredentials();
 
 
     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
